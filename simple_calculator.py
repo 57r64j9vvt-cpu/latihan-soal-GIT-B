@@ -5,8 +5,8 @@ class Calculator:
         return a - b
     def multiply(self, a, b):
         return a * b
-    def divide(self, a, b):
-        return a / b
+    def divide(self, dividend, divisor):
+        return dividend / divisor
     def modulo(self, a, b):
         return a % b
     def power(self, a, b):
