@@ -7,8 +7,8 @@ class Calculator:
         return a * b
     def divide(self, a, b):
         return a / b
-    def modulo(self, a, b):
-        return a % b
+    def modulo(self, angka_kiri, angka_kanan):
+        return angka_kiri % angka_kanan
     def power(self, a, b):
         return a ** b
     
